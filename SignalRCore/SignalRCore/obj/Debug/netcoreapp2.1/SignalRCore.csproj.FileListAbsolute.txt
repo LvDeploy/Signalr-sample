@@ -1,0 +1,14 @@
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\bin\Debug\netcoreapp2.1\SignalRCore.deps.json
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\bin\Debug\netcoreapp2.1\SignalRCore.runtimeconfig.json
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\bin\Debug\netcoreapp2.1\SignalRCore.runtimeconfig.dev.json
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\bin\Debug\netcoreapp2.1\SignalRCore.dll
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\bin\Debug\netcoreapp2.1\SignalRCore.pdb
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.csprojAssemblyReference.cache
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.csproj.CoreCompileInputs.cache
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.RazorAssemblyInfo.cache
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.RazorAssemblyInfo.cs
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.AssemblyInfoInputs.cache
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.AssemblyInfo.cs
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.RazorTargetAssemblyInfo.cache
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.dll
+C:\Projetos\Dotnet\signalr-sample\SignalRCore\SignalRCore\obj\Debug\netcoreapp2.1\SignalRCore.pdb
