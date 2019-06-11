@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using SignalRCore.Models;
+using SignalRCore.Service;
+using SignalRCore.Service.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +36,31 @@ namespace SignalRCore.Hubs
 
                 writer.Complete();
             }
+        }
+
+        
+        public override Task OnConnectedAsync()
+        {
+            var usuarioId = int.Parse(Context.ConnectionId);
+
+            HubMapping.Instance.Add(usuarioId, Context.ConnectionId);
+
+            //Console.WriteLine("Connect: " + usuarioId + " - " + Context.ConnectionId + " - " + DateTime.Now.ToShortTimeString());
+
+            SignalRManager<ApplicationHub>.Instance.ExecutarChamadasPendentes(usuarioId, Context.ConnectionId);
+
+            return base.OnConnectedAsync();
+        }
+
+        public override Task OnDisconnectedAsync(Exception ex = null)
+        {
+            var usuarioId = int.Parse(Context.ConnectionId);
+
+            //Console.WriteLine("Disconnect: " + usuarioId + " - " + Context.ConnectionId + " - " + DateTime.Now.ToShortTimeString());
+
+            HubMapping.Instance.Remove(usuarioId, Context.ConnectionId);
+
+            return base.OnDisconnectedAsync(ex);
         }
     }
 }

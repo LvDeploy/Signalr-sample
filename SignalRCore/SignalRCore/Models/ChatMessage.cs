@@ -8,5 +8,7 @@ namespace SignalRCore.Models
     public class ChatMessage
     {
         public string Message { get; set; }
+
+        public int IdUsuario { get; set; }
     }
 }
